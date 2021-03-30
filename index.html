@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Your Mother">
+		<meta name="description" content="JS popup demo.">
+		<meta name="keywords" content="I, am, pretty, sure, these, don't, matter">
+		
+		<title>JS Popup Demo</title>
+		<link type="text/css" rel="stylesheet" href="styles/popup.css">
+		<script src="scripts/popup.js"></script>
+	</head>
+	
+	<body>
+		<h1>Hello World!</h1>
+		<ul>
+			<li><a href="#" class="copy_text" onclick="PopupHandle(this, 'popup_notification', 3000, 3500);">Click me for a popup!</a></li>
+			<li><a href="#" class="copy_text" onclick="CopyTextToKeyboard(this, 'popup_textcopied');">Click me to copy!</a></li>
+		</ul>
+		
+		<div class="popup" id="popup_notification" onclick="PopupToggleShowHide(this);">
+			<span class="popup_text">I'm a popup and there's nothing you can do to stop me.</span>
+		</div>
+		<div class="popup" id="popup_textcopied" onclick="PopupToggleShowHide(this);">
+			<span class="popup_text">Copied to keyboard.</span>
+		</div>
+	</body>
+</html>
