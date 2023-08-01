@@ -1,6 +1,6 @@
 # Better ```alert()``` #
 
-JavaScript ```alert()``` but not Awful™.  A Better alert() popup can be easily styled using CSS, and doesn't bloat the section of your HTML document it is applied to.  See example HTML/CSS files for examples and usage.
+JavaScript ```alert()``` but not Awful™.  A Better alert() popup can be easily styled using CSS and doesn't bloat the important parts of your HTML document.  See HTML/CSS files for examples and usage.
 
 <br>
 
